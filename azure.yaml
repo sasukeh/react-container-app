@@ -1,0 +1,11 @@
+
+name: react-container-app
+services:
+  frontend:
+    project: ./static-web-app
+    language: js
+    host: staticwebapp
+  backend:
+    project: ./backend
+    language: js
+    host: containerapp
